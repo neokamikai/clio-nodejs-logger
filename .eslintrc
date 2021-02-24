@@ -1,0 +1,16 @@
+{
+  "env": {
+    "es6": true,
+    "mocha": true,
+    "node": true
+  },
+  "extends": ["@kamikai/natura-typescript"],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "project": ["./tsconfig.json"]
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ]
+}
